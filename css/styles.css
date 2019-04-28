@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*Desktop/Global Dimensions*/
+
+body{
+font-family: 'Open Sans', sans-serif;
+margin-left: auto;
+margin-right:auto;
+max-width:1024px;
+	background-color:#FCFCFC;
+}
+
+
+/*GRID*/
+
+.col{
+	float:left;
+	padding: 1%;
+}
+
+.col-lg{
+	width: 31.3%;
+}
+
+.col-lg img{
+	width:100%;
+	height: auto;
+	display:block;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+
+/*HEADER*/
+
+header {
+	padding: 10px 20px 20px 20px;
+}
+
+header img{
+	height:110px;
+	width:110px;
+	border-radius:50%;
+}
+
+#menu{
+	float: right;
+}
+
+#menu li{
+	display: inline-block;
+}
+
+#menu li a{
+	text-decoration: none;
+	color: #333333;
+	padding: 8px;
+	font-size: 18px;
+}
+
+
+
+/*HERO*/
+
+.hero{
+	background-image: url("../img/hero-background.jpg");
+	padding: 52px 0px 72px 72px;
+	background-size: cover;
+}
+
+.hero-heading{
+	color: #fff;
+	font-weight: 800;
+	font-size: 33px;
+	margin-bottom: -54px;
+}
+
+h1{
+	color: #fff;
+	font-weight: 300;
+	font-size: 52px;
+	margin-bottom: -5px;
+}
+
+.heading-body-copy{
+	color: #fff;
+	margin-right: 20%;
+	
+}
+
+.lets-talk{
+	background-color: #f1474c;
+	padding: 8px 30px;
+	text-decoration:none;
+	color: #fff;
+	border-radius:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet Dimensions*/
+
+@media(max-width:768px){
+	
+	
+	#menu li{
+		display:block;
+		text-align:right;
+	}
+	
+	.col-md{
+		width: 48%;
+	}
+	
+}
+
+/*Mobile Dimensions*/
+
+@media(max-width:400px){
+	
+	.slicknav_menu {
+		display: block;
+}
+	
+	#menu{
+		display: none;
+	}
+	
+	.col {
+		padding: 0;
+	}
+	.col-sml{
+		width:100%;
+	}
+	
+}
